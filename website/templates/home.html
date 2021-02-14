@@ -1,0 +1,833 @@
+{% load static %}
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Puru Raj</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'website/css/base.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/vendor.css' %}">
+    <link rel="stylesheet" href="{% static 'website/css/main.css' %}">
+    
+    <!--font awesome
+    ===================================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="{% static 'website/js/modernizr.js' %}"></script>
+    <script src="{% static 'website/js/pace.min.js' %} "></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="{% static 'website/favicon.ico' %}" type="image/x-icon">
+    <link rel="icon" href="{% static 'website/favicon.ico' %}" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="\"><img src="{% static 'website/images/logo.png' %}" alt="Homepage"></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="{% static 'website/images/hero-bg.jpg'%}" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello</h3>
+
+                <h4>
+                    I am Puru Raj. <br>
+                    A Graphic Designer <br>
+                    Photographer and an enthusiast Engineering student.
+                </h4>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
+                </div>
+
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="https://www.facebook.com/puru.raj.988"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/pururaj2000"><i class="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/puru__raj/"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/puru-raj-8564ab195/"><i class="fa fa-linkedin" aria-hidden="true"></i><span>Linked</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/pururajatgithub"><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About Me</h3>
+                <p> 
+                    I am an ambitious engineering student and a talented photographer who has 1 year of experience with design and about
+                     two months of corporate commitment with feild engineering, with egar to learn and to play  with the new technology.
+
+
+                </p>
+                <p class="lead"></p>
+            </div>
+        </div>
+
+        <div class="row about-content">
+                <h3 class="col-full text-center" style="color: black">I've Got Some skills!</h3>
+            <div class="col-six tab-full left">
+                
+
+                <ul class="skill-bars">
+                    <li>
+                        <div class="progress percent70"><span>70%</span></div>
+                        <strong>Python</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent65"><span>65%</span></div>
+                        <strong>C</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent85"><span>85%</span></div>
+                        <strong>C++</strong>
+                        </li>
+                        <li>
+                        <div class="progress percent85"><span>85%</span></div>
+                        <strong>Flask</strong>
+                        </li>
+                </ul>
+            </div>
+
+            <div class="col-six tab-full right">
+                
+
+                <ul class="skill-bars">
+                    <!-- <li>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>Python</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent65"><span>65%</span></div>
+                    <strong>C</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>C++</strong>
+                    </li> -->
+                    <li>
+                    <div class="progress percent75"><span>75%</span></div>
+                    <strong>Django</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent70"><span>70%</span></div>
+                    <strong>MySQL</strong>
+                    </li> 
+                    <li>
+                    <div class="progress percent85"><span>85%</span></div>
+                    <strong>Photography</strong>
+                    </li>   
+                    <li>
+                    <div class="progress percent90"><span>90%</span></div>
+                    <strong>Graphic Design</strong>
+                    </li> 
+                      
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="https://drive.google.com/file/d/1rhvlHnzhySlS_P_Bd7ItADjuzCyUmrgI/view?usp=sharing" class="btn btn--primary full-width" target="blank">Download My CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a  href="#contact" class="btn full-width smoothscroll">Hire Me Now</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3 style="color: black">My Work Experience</h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">January 2020 - Present</p>
+                            <h3 style="color: black">Wingers IT Services PVT. LTD.</h3>
+                            <h5 style="color: black">Lead Designer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Worked as lead designer, designed various magzines and brouchers and graphics as per the company's requirement and delivered all the works on time.<br> <b>Mr. Shivam Singh Khushwaha</b> (H.R.) <br><b>Contact:</b>+91 - 7202052104</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe"> OCTOBER 2020 - NOVEMBER 2020</p>
+                            <h3 style="color: black">LYTE Video Technology PVT. LTD.</h3>
+                            <h5 style="color: black">Assistant Designer</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>1-month Internship as graphic designer, designed various magzines and brouchers and some of the video editings as per the company's requirement and delivered all the works on time.<br> <b>Mr. Indresh Singh</b> (H.R.)<br><b>Contact:</b> +91-8115854528
+                            </p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            <div class="col-six tab-full right">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">APRIL 2020 - JUNE 2020</p>
+                            <h3 style="color: black">Wingers IT Services PVT. LTD.</h3>
+                            <h5 style="color: black">Web Development Intern</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>6-week Internship as web developer(backend) in, worked on Python(Django-Framework)  <br> <b>Mr. Shivam Singh Khushwaha</b> (H.R.) <br><b>Contact:</b>+91 - 7202052104</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">September 2019 - August 2020</p>
+                            <h3 style="color: black">Department of Youth Capital, DSW, LPU</h3>
+                            <h5 style="color: black">Lead Designer</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Managed various events as Co-ordinator E- campaign and also worked as Graphic designer. <br> <b>Mr. Aman Kumar</b> (Student-in-Chief) <br> <b>Contact:</b>  +91 - 85590 48841.</p>
+                        </div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end right -->
+
+        </div> <!-- end about-content timeline -->
+
+    </section> <!-- end about -->
+    
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h2 style="color: black; font-family: 'century-gothic';">My Projects and works</h1>
+                
+                
+            </div>
+        </div>
+
+        <div class=" container row masonry-wrap mx-auto">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'website/images/portfolio/gallery/g-beetle.jpg'%}" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="{% static 'website/images/portfolio/beetle.jpg' %}" 
+                                     srcset="{% static 'website/images/portfolio/beetle.jpg' %} 1x, {% static 'website/images/portfolio/beetle@2x.jpg' %} 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Auto time-table adjustment.
+                            </h3>
+                            <p class="item-folio__cat">
+                                Python
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/pururajatgithub/Auto-adjustment-for-faculty" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'website/images/portfolio/gallery/g-lighthouse.jpg' %}" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                                <img src="{% static 'website/images/portfolio/lighthouse.jpg' %}" 
+                                     srcset="{% static 'website/images/portfolio/lighthouse.jpg' %} 1x, {% static 'website/images/portfolio/lighthouse@2x.jpg' %} 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Propeller Clock
+                            </h3>
+                            <p class="item-folio__cat">
+                                Digital Electronics
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/pururajatgithub/propellerclock" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'website/images/portfolio/gallery/g-salad.jpg' %}" class="thumb-link" data-size="1050x700">
+                                <img src="{% static 'website/images/portfolio/salad.jpg' %}" 
+                                     srcset="{% static 'website/images/portfolio/salad.jpg' %} 1x, {% static 'website/images/portfolio/salad@2x.jpg'%} 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Web Application
+                            </h3>
+                            <p class="item-folio__cat">
+                                Flask-Python
+                            </p>
+                        </div>
+
+                        <a href="https://github.com/pururajatgithub/flaskproject" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'website/images/portfolio/gallery/g-woodcraft.jpg'%}" class="thumb-link" data-size="1050x700">
+                                <img src="{% static 'website/images/portfolio/woodcraft.jpg' %}"
+                                     srcset="{% static 'website/images/portfolio/woodcraft.jpg' %} 1x, {% static 'website/images/portfolio/woodcraft@2x.jpg'%} 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                BUSINESS BRANDING
+                            </h3>
+                            <p class="item-folio__cat">
+                                DESIGNING
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/gallery/113012095/Bakery-Logo" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'website/images/portfolio/gallery/g-skaterboy.jpg' %}" class="thumb-link" data-size="1050x700">
+                                <img src="{% static 'website/images/portfolio/skaterboy.jpg' %}"
+                                     srcset="{% static 'website/images/portfolio/skaterboy.jpg' %} 1x, {% static 'website/images/portfolio/skaterboy@2x.jpg' %} 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                ELEGANT RESUME/CV
+                            </h3>
+                            <p class="item-folio__cat">
+                                DESIGNING
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/gallery/113012655/RESUME-TEMPLATE" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'website/images/portfolio/gallery/g-liberty.jpg' %}" class="thumb-link" data-size="1050x700">
+                                <img src="{% static 'website/images/portfolio/liberty.jpg' %}"
+                                     srcset="{% static 'website/images/portfolio/liberty.jpg' %} 1x, {% static 'website/images/portfolio/liberty@2x.jpg' %} 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Golden Temple
+                            </h3>
+                            <p class="item-folio__cat">
+                                Photography
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/gallery/113014161/Golden-Temple" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio  golden temple-->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'website/images/portfolio/gallery/g-minimalismo.jpg' %}" class="thumb-link" data-size="1050x700">
+                                <img src="{% static 'website/images/portfolio/minimalismo.jpg' %}"
+                                     srcset="{% static 'website/images/portfolio/minimalismo.jpg' %} 1x, {% static 'website/images/portfolio/minimalismo@2x.jpg' %} 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                CAT
+                            </h3>
+                            <p class="item-folio__cat">
+                                Photography
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/gallery/113013811/Cat" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio  water splash-->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="{% static 'website/images/portfolio/gallery/g-shutterbug.jpg' %}" class="thumb-link" data-size="1050x700">
+                                <img src="{% static 'website/images/portfolio/shutterbug.jpg' %}"
+                                     srcset="{% static 'website/images/portfolio/shutterbug.jpg' %} 1x, {% static 'website/images/portfolio/shutterbug@2x.jpg' %} 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Musturd Flower
+                            </h3>
+                            <p class="item-folio__cat">
+                                Photography
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/gallery/113014231/Flower" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <!-- <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p> -->
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works -->
+
+
+
+    <!-- Certifications
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">My Certifications</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="{% static 'website/images/avatars/user-01.png' %}" alt="Author image" class="testimonials__avatar">
+                    <p><h3>AWS Fundamentals</h3>
+                    Successfully completed an online course by Amazon Web Services, offered through Coursera</p>
+                    
+                    
+                     <a class="btn btn-danger" href="https://www.coursera.org/account/accomplishments/verify/JEVMUKMCFL4W" alt='verify'>verify</a>
+                    
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="{% static 'website/images/avatars/user-05.gif' %}" alt="Author image" class="testimonials__avatar">
+                    <p><h3>Technical Support Fundamentals</h3>
+                    Successfully completed an online course  by Google, offered through Coursera</p>
+                    
+                    <a class="btn btn-danger" href="https://www.coursera.org/account/accomplishments/verify/9ZGLKH5MSTCJ" alt='verify'>verify</a>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="{% static 'website/images/avatars/user-02.jpg' %}" alt="Author image" class="testimonials__avatar">
+                    <p><h3>Machine Learning for All</h3>
+                        Successfully completed an online course by University of London, offered through Coursera</p>
+                    
+                        <a class="btn btn-danger" href="https://www.coursera.org/account/accomplishments/verify/8BEXTWBRKAF8" alt='verify'>verify</a>
+                </div>
+                <div class="testimonials__slide">
+                    <img src="{% static 'website/images/avatars/user-06.png' %}" alt="Author image" class="testimonials__avatar">
+                    <p><h3>Data Structures and Algorithm</h3>
+                        Successfully completed  course on DSA Self paced of duration 8 weeks, offered by GeeksforGeeks</p>
+                    
+                        <a class="btn btn-danger" href="https://media.geeksforgeeks.org/courses/certificates/26801748cb335aa20be38d9103fbcf00.pdf" alt='verify'>verify</a>
+                </div>
+
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end certification -->
+
+
+   
+
+
+   
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+        <div class="row block-1-1 block-tab-1-10 block-mob-full stats">
+
+            <div class="div container-fluid">
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+
+        </div>
+    </section> <!-- end s-stats -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Say Hello.</h1>
+                
+                <p class="lead">
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form name="" id="" method="post" action="{% url 'home' %}">
+                {% csrf_token %}
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" aria-required="true" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Type your Message!(Add your Email or Phone at the end of your  message)" rows="10" cols="50" required="" aria-required="true" class="full-width">{{contact_Email}}</textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                 
+            {% if contact_Name %}
+                <!-- contact-success -->
+                <div class="message-success">
+                    Thanks {{ contact_Name }}! <br>
+                    Your mail has been recieved! I'll reply you shortly.
+                </div>
+            {% else %}
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div>
+            {% endif %}
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>Phone: (+91) 62054 78951<br>
+                Mobile: (+91) 70614 91413<br>
+                </p>
+
+                <h4 class="h06">Email</h4>
+                <p>pururaj2000@gmail.com<br>
+                </p>
+
+                <h4 class="h06">Address</h4>
+                <p>
+                Ward 39 Nawada Ara, <br>
+                Bhojpur, Bihar <br>
+                802301 INDIA
+                </p>
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="/"><img src="{% static 'website/images/logo.png'%}" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="https://www.facebook.com/puru.raj.988">
+                        <i class="im im-facebook" aria-hidden="true"></i>
+                        <span>Facebook</span>
+                    </a></li>
+                    <li><a href="https://twitter.com/pururaj2000">
+                        <i class="im im-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="https://www.instagram.com/puru__raj/">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                    <li><a href="https://www.linkedin.com/in/puru-raj-8564ab195/">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <span>Linkedin</span>
+                    </a></li>
+                    <li><a href="https://github.com/pururajatgithub">
+                        <i class="fa fa-github" aria-hidden="false"></i>
+                        <span>github</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Puru Raj</span> 
+                    <!-- <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	 -->
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="{% static 'website/js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'website/js/plugins.js' %}"></script>
+    <script src="{% static 'website/js/main.js' %}"></script>
+
+</body>
+
+</html>
